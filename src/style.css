@@ -1,0 +1,83 @@
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    padding: 7.5vh 0;
+    margin: 0;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.app {
+    background-color: aliceblue;
+    min-height: 85vh;
+    width: 78vw;
+    min-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: minmax(200px,1fr) 3fr;
+    gap: 10px;
+}
+
+.lists-box {
+    background-color: aqua;
+    padding: 5px;
+
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 50px auto;
+}
+
+.lists-box-header {
+    background-color: coral;
+}
+
+.lists-box-header-button {
+    justify-self: flex-end;
+}
+
+.list-item {
+    background-color: aquamarine;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    align-content: flex-start;
+}
+
+
+
+
+
+
+.items-box {
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.items-box-header {
+    background-color: lawngreen;
+}
+
+.items-box-area {
+    background-color: blueviolet;
+    padding: 10px;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-content: flex-start;
+}
+
+.item-box {
+    background-color: brown;
+    height: 150px;
+}
+
