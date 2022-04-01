@@ -1,0 +1,26 @@
+
+
+.items-box {
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.items-box-header {
+    background-color: lawngreen;
+}
+
+.items-box-area {
+    background-color: blueviolet;
+    padding: 10px;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-content: flex-start;
+}
+
+.item-box {
+    background-color: brown;
+    height: 150px;
+}
+

@@ -1,0 +1,27 @@
+
+.list-area {
+    background-color: aqua;
+    padding: 5px;
+
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 50px auto;
+}
+
+.list-area-header {
+    background-color: coral;
+    padding: 5px;
+}
+
+.list-area-header-button {
+    justify-self: flex-end;
+}
+
+.list-area-item {
+    background-color: aquamarine;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    align-content: flex-start;
+}
