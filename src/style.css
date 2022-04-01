@@ -1,4 +1,4 @@
-h3 {
+h1, h2, h3 {
     padding: 0px;
     margin: 0px;
 }
@@ -26,7 +26,10 @@ body {
     gap: 10px;
 }
 
-.lists-box {
+
+
+
+.list-area {
     background-color: aqua;
     padding: 5px;
 
@@ -35,15 +38,15 @@ body {
     grid-template-rows: 50px auto;
 }
 
-.lists-box-header {
+.list-area-header {
     background-color: coral;
 }
 
-.lists-box-header-button {
+.list-area-header-button {
     justify-self: flex-end;
 }
 
-.list-item {
+.list-area-item {
     background-color: aquamarine;
     padding: 5px;
 
@@ -51,6 +54,8 @@ body {
     grid-template-columns: 3fr 1fr 1fr;
     align-content: flex-start;
 }
+
+
 
 
 
